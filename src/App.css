@@ -1,0 +1,128 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color: rgb(53, 53, 53);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.App {
+  height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+  width: 600px;
+    background: rgb(14, 14, 14);
+    box-shadow: 0px 1px 16px 1px rgb(0 0 0 / 10%);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 30px;
+}
+.search-bar{
+  display: flex;
+  margin-bottom: 5px;
+}
+.search-bar input {
+  width: 100%;
+    border: 2px solid #e3e3e3;
+    border-radius: 4px;
+    padding: 6px 12px;
+    transition: .3s ease-in-out;
+    outline: 0;
+    box-shadow: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.search-bar input:focus {
+  border:2px solid #3fa2f1;
+}
+table tr:nth-child(odd) {
+  /* background: #fafafb; */
+}
+
+button{
+  cursor: pointer;
+}
+.savebutton{
+  background: #3f51b5;
+    width: 120px !important;
+    cursor: pointer;
+  color: #fff;
+  border: none;
+  padding: 8px 19px;
+  min-height: 40px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 0 !important;
+}
+
+td button {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar-outer{
+  padding-top: 30px;
+}
+button{
+  background: none;
+}
+
+.search-bar input[type="button"] {
+  font-size: 27px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 55px !important;
+  height: 45px;
+  padding-bottom: 5px;
+}
+
+.search-bar input[type="text"] {
+  border-radius: 50px;
+  background: #010101;
+  border: 2px solid #e3e3e329;
+}
